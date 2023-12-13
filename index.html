@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+        <title>HP API's</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            body {
+                background-image: url('hogwarts.jpg');
+                background-size: stretch; 
+                background-position: center; 
+            }
+        </style>
+    </head>
+    <body>
+        <script src="main.js"></script>
+        <img src="header.jpg" width="1900" height="350">
+        <p>Harry Potter API</p>
+        <p>Click on Buttons beneath the houses to see the top 5 students ....</p>
+        <section>
+            <div class="grid-container">
+                <div class="image-grid">
+                    <div>
+                        <img src="gryffindor.PNG" width="200" height="350" class="grid-item">
+                        <div class="grid-button">
+                            <button id="gryffindor" style="margin-left: 30%;">Click</button>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="slytherin.PNG" width="200" height="350" class="grid-item">
+                        <div class="grid-button">
+                            <button id="slytherin" style="margin-left: 30%;">Click</button>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="hufflepuff.png" width="200" height="350" class="grid-item">
+                        <div class="grid-button">
+                            <button id="hupplepuff"style="margin-left: 30%;">Click</button>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="ravenclaw.png" width="200" height="350" class="grid-item">
+                        <div class="grid-button">
+                            <button id="ravenclaw" style="margin-left: 30%;">Click</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="dataContainer" class="data-container"></div>
+        </section>
+    </body>
+</html>
